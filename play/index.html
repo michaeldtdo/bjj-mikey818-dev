@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BJJ Coach — Open Clip</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 480px; margin: 40px auto; padding: 0 20px; background: #121212; color: #fff; }
+        h1 { font-size: 1.5em; }
+        p { color: #aaa; line-height: 1.6; }
+        code { background: #2a2a2a; padding: 2px 6px; border-radius: 3px; color: #90CAF9; }
+    </style>
+    <script>
+        const path = window.location.pathname;
+        const match = path.match(/\/play\/([a-z0-9\-]+)/);
+        if (match) {
+            document.addEventListener('DOMContentLoaded', () => {
+                document.getElementById('clip-id').textContent = match[1];
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Open Clip</h1>
+    <p>Trying to open clip <code id="clip-id">...</code> in the BJJ Coach app.</p>
+    <p>If the app didn't open, it may not be installed on this device. This link only works on the Android device with the companion app installed.</p>
+</body>
+</html>
