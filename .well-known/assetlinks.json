@@ -4,7 +4,10 @@
     "target": {
       "namespace": "android_app",
       "package_name": "dev.mikey818.bjjcoach",
-      "sha256_cert_fingerprints": ["6E:BF:65:AE:30:7E:D0:C8:37:EB:A3:98:47:EB:3A:E3:03:CB:F8:A6:86:D2:A8:00:01:F0:5C:33:0A:2F:F1:54"]
+      "sha256_cert_fingerprints": [
+          "6E:BF:65:AE:30:7E:D0:C8:37:EB:A3:98:47:EB:3A:E3:03:CB:F8:A6:86:D2:A8:00:01:F0:5C:33:0A:2F:F1:54",
+          "8B:C9:09:87:7F:16:05:AF:82:69:A2:77:88:1C:3B:38:F5:AC:94:2C:6F:45:FF:E2:0D:B5:4E:74:64:6D:01:6C"
+        ]
     }
   }
 ]
